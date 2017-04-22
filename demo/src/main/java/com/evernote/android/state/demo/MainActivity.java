@@ -40,6 +40,7 @@ public class MainActivity extends Activity {
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         StateSaver.saveInstanceState(this, outState);
+        new TestObj().test();
     }
 
     public int getTest1() {

@@ -63,7 +63,8 @@ android {
 
 dependencies {
     compile project(':library')
-    kapt project(':processor')
+    //kapt project(':processor')
+    kapt "com.evernote:android-state-processor:1.0.6"
     compile "com.android.support:appcompat-v7:$supportLibVersion"
 
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
